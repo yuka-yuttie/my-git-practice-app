@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vue あああメモアプリ</title>
+    <title>Vue メモアプリ</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app" class="memo-list">
+      <h1>Vue メモアプリ</h1>
       <ul class="memo-list__container">
         <li v-for="(memo, index) in memos" v-bind:key="index" class="memo">
           <div class="memo__checkbox">
